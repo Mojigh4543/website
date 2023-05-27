@@ -1,0 +1,92 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+@font-face {
+    font-family:vazir;
+    src: url(font/Vazir.ttf) format('truetype'),
+     url(font/Vazir.woff) format('woff'),
+     url(font/Vazir.woff2) format('woff2');
+}
+@font-face {
+    font-family:iranyekan ;
+    src: url(font/IRANYekan.ttf) format('truetype'),
+    url(font/IRANYekan.woff) format('woff'),
+    url(font/IRANYekan.woff2) format('woff2');
+}
+body {
+    direction: rtl;
+    font-family: vazir , iranyekan ;
+}
+
+.nav {
+    padding: 10px;
+   width: 1004px;
+    background-color: #222126;
+    
+}
+
+.nav header a {
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    background-color: #fbc531;
+    color: #2f3640;
+}
+
+.img1 {
+    width: 1024px;
+    position: relative;
+  
+}
+
+.about {
+    color: #f5f6fa;
+    position: absolute;
+    top: 200px;
+    right: 700px;
+}
+
+.about p {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.dok {
+    background-color: #e1b12c;
+    border-radius: 50px;
+    width: 150px;
+    height: 35px;
+    margin-right: 20px;
+    font-size: 14px;
+}
+
+.dok a {
+    margin-right: 28px;
+
+    text-decoration: none;
+    color: black;
+    font: bold;
+}
+
+.dok:hover {
+    background-color: #7f8fa6;
+}
+.abo{
+    position: relative;
+}
+.titer{
+    position: absolute;
+    z-index: -10;
+ 
+}
+.text{
+    position: absolute;
+    top: 44px;
+    
+    
+   
+}
