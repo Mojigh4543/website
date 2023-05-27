@@ -33,7 +33,7 @@ body {
 }
 
 .nav a:hover {
-    background-color: #fbc531;
+    background-color: #c23616;
     color: #2f3640;
 }
 
@@ -56,7 +56,7 @@ body {
 }
 
 .dok {
-    background-color: #e1b12c;
+    background-color: #c23616;
     border-radius: 50px;
     width: 150px;
     height: 35px;
